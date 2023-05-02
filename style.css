@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  background-color: #3b3b98;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Muli', sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+  padding: 10px;
+}
+
+h2 {
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.container {
+  background-color: #23235b;
+  box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+  max-width: 100%;
+  padding: 20px;
+  width: 350px;
+}
+
+.result-container {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  font-size: 18px;
+  height: 50px;
+  justify-content: flex-start;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  position: relative;
+  width: 100%;
+}
+
+.result-container #result {
+  height: 100%;
+  max-width: calc(100% - 40px);
+  overflow-y: scroll;
+  word-wrap: break-word;
+}
+
+#result::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.result-container .btn {
+  font-size: 20px;
+  height: 40px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 40px;
+}
+
+.btn {
+  background-color: #3b3b98;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+}
+
+.btn-large {
+  display: block;
+  width: 100%;
+}
+
+.setting {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
